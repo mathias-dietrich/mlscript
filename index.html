@@ -1,0 +1,220 @@
+<html>
+<head>
+<title>ML Script</title>
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<style>
+body{
+	font-family:Arial;
+	background-repeat: no-repeat;
+	background-color: #000033;
+}
+
+.container{
+	position: absolute;
+	top:0px;
+	max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    height:100%;
+}
+
+h1{
+	color:white;
+}
+h2{
+	color:white;
+	font-family:Courier;
+}
+a{
+	color:white;
+	font-size:20px;
+}
+.small{
+	color:white;
+	font-size:10px;
+}
+
+.footer{
+	color:white;
+	font-size:12px;
+	position:absolute;
+    left: 600px;
+    width:400px;
+    bottom:10px;
+}
+.notebook{
+	color:white;
+	font-size:10px;
+	position:absolute;
+
+    width:200px;
+    top:74px;
+    left:50px;
+}
+.left{
+ position: absolute;
+    left: 20px;
+    color:white;
+    font-size:20px;
+    margin:20px;
+    padding:20px;
+    width:200px;
+    background: rgba(54, 25, 25, .7);
+}
+
+.right{
+ 	position: absolute;
+    left: 350px;
+    color:white;
+     width:320px;
+     font-size:20px;
+     background: rgba(54, 25, 25, .7);
+     margin:20px;
+     padding:20px;
+}
+
+.alg{
+	top:370px;
+ 	position: absolute;
+    left: 30px;
+    color:white;
+    width:400px;
+    font-size:20px;
+    background: rgba(54, 25, 25, .7);
+    margin:20px;
+    padding:20px;
+}
+.workflow{
+
+ 	position: absolute;
+    left: 750px;
+    color:white;
+    width:500px;
+    font-size:20px;
+    background: rgba(54, 25, 25, .7);
+    margin:20px;
+    padding:20px;
+}
+.content{
+	top:80px;
+	position: absolute;
+  	margin-right: auto;
+    margin-left: auto;
+    background-color: #000033;
+}
+
+.img{
+	position: absolute;
+ 	position: absolute;
+    z-index:-2;
+    margin-right: auto;
+    margin-left: auto;
+	top:80px;
+}
+
+.header{
+
+	top:0px;
+	position: absolute;
+	width: 1000px;
+	position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+top:0px;
+	position: absolute;
+	width: 1000px;
+	left:50px;
+}
+h2{
+	top:10px;
+	position: absolute;
+	width: 1000px;
+	left:400px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="img"><img src ="img/bg.jpg" /></div>
+
+	<h1>MLScript.org</h1>
+	<h2>Machine Learning Tools</h2>
+
+
+	<div class="content">
+
+		<div class="left">
+		<h3>Core Libraries</h3>
+		<ul>
+		
+		<li><a href="https://mxnet.incubator.apache.org/">MXNet</a></li>
+
+		<li><a href="https://www.tenserflow.org">Tensorflow</a></li>
+		<li><a href="http://deeplearning.net/software/theano/">Theano</a></li>
+		<li><a href="http://caffe.berkeleyvision.org/">Caffee</a></li>
+		<li><a href="http://torch.ch/">Torch</a></li>
+		<li><a href="https://github.com/dmlc/xgboost">XGBoost</a></li>
+		<li><a href="https://www.lua.org">Lua</a></li>
+		<li><a href="http://terralang.org">TeraLang</a></li>
+		<li><a href="http://willcrichton.github.io/terracuda/">Terra Cuda</a></li>
+		<li><a href="https://developer.nvidia.com/cuda-zone">Cuda</a></li>
+		</ul>
+		</div>
+
+		<div class="right">
+		<h3>Machine Learning Process</h3>
+		<ul>
+		<li>Problem Definition</li>
+		<li>Analyze Data</li>
+		<li>Prepare Data</li>
+		<li>Feature Scaling</li>
+		<li>Evaluate Algorithms</li>
+		<li>Train Model</li>
+		<li>Improve Model</li>
+		<li>Serve Model</li>
+		</ul>
+		</div>
+		
+		<div class="alg">
+		<h3>Algorithms</h3>
+		<ul>
+		<li>Decision Trees</li>
+		<li>Random Forests</li>
+		<li>Naive Bayes Classification</li>
+		<li>Ordinary Least Squares Regression</li>
+		<li>Logistic Regression</li>
+		<li>Support Vector Machines</li>
+		<li>Neural Networks</li>
+		</ul>
+		</div>
+
+		<div class="workflow">
+			<h3>Example: Forex Workflow</h3>
+			<ul>		
+				<li>Load tick data in CSV format</li>
+				<li>Strip headers and format dates</li>
+				<li>Build timeseries of Candle Bars or Heikin-Ashi</li>
+				<li>Indicators</li>
+				<li>Normalize to Standard Deviation and mean zero</li>
+				<li>Lag candles and indicators to create window</li>
+				<li>Split datasets into Training, Testing, Validation</li>
+				<li>Boot ml cluster on public cloud </li>
+				<li>Train model</li>
+				<li>Save model</li>
+				<li>Shutdown cluster</li>
+				<li>Serve model</li>
+				<li>Validate model</li>
+				<li>Serve production</li>
+			</ul>
+		</div>
+
+</div>
+
+<div class="footer"><center>Copyright: MLScript Palo Alto, 2017</div>
+
+<div class="notebook"><a href="http://api.pip.financial:8000/">notebook</a><div>
+</body>
+</html>
