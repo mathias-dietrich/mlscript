@@ -19,7 +19,7 @@ mlscript:
 entities:
 - Data: Event (E), Stream (S), MetaData (M), File(F), Cache (C)
 - Identity: Credentials (CR), Role(RO), Profile(PR)
-- Service: Source (SO), Mapper (MA), Neural Processor (NP), Reducer (RE), Sink (SI), Actor (AC), Visualizer (VI)
+- Service: Source (SO), Mapper (MA), Neural Processor (NP), Reducer (RE), Sink (SI)
 - Infra: Node (NO), Rack (RA), Availability Zone (AZ), Hosting Center (DC)
 
 Example Toplogy:
@@ -28,5 +28,6 @@ Example Toplogy:
 
 
 http://mlscript.org
+http://mlscript.com
 
 
