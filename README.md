@@ -23,7 +23,7 @@ entities:
 - Infra: Node (NO), Rack (RA), Availability Zone (AZ), Hosting Center (DC)
 
 Example Toplogy:
-![Alt text](/MLSript.png?raw=true "mlscript example topology")
+![Alt text](/MLScript.png?raw=true "mlscript example topology")
 
 http://mlscript.org
 
