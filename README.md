@@ -4,6 +4,7 @@ Machine Learning Orchestration
 mlscript:
 
 - orchestrats flows of streaming data for time series analytics based on machine learning 
+- feeds ensemble machine learning algorithms for supervised learning
 - is an interpreted configuration language
 - produces declarative infastructure as code
 - is implemented in one GO binary
@@ -16,7 +17,9 @@ mlscript:
 
 
 entities:
-- Service: Source (SO), Mapper (MA), Neural Processor (NP), Reducer (RE), Sink (SI), Visualizer (VI)
+- Data: Event (E), Stream (S), MetaData (M), File(F), Cache (C)
+- Identity: Credentials (CR), Role(RO), Profile(PR)
+- Service: Source (SO), Mapper (MA), Neural Processor (NP), Reducer (RE), Sink (SI), Actor (AC), Visualizer (VI)
 - Infra: Node (NO), Rack (RA), Availability Zone (AZ), Hosting Center (DC)
 
 Example Toplogy:
