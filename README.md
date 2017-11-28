@@ -9,14 +9,17 @@ mlscript:
 - is implemented in one GO binary
 - can run as a Jupyter kernel
 - builds on and binds to Lua (L), Python (P) and R (R)
-- interfaces to Caffe (CA), CNTK (CN), Mixnet (MI), Keras (KE), Tensorflow (TF)
-- scales from a single laptop to hybrid cloud
+- interfaces to Caffe (CA), CNTK (CN), Mixnet (MI), Keras (KE), Tensorflow (TF) and XGBoost (XG)
 - supports checkpointing
+- implements a Directed Acyclic Graph (DAG)
+- scales from a single laptop to hybrid cloud
 
-Entities are:
-- Source (SO), Mapper (MA), Processer (PR), Reducer (RE), Sink (SI)
 
-Example:
+entities:
+- Service: Source (SO), Mapper (MA), Neural Processor (NP), Reducer (RE), Sink (SI), Visualizer (VI)
+- Infra: Node (NO), Rack (RA), Availability Zone (AZ), Hosting Center (DC)
+
+Example Toplogy:
 
 
 
