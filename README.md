@@ -23,11 +23,11 @@ entities:
 - Infra: Node (NO), Rack (RA), Availability Zone (AZ), Hosting Center (DC)
 
 Example Toplogy:
-
-
+<img src="mlscript.png" />
 
 
 http://mlscript.org
+
 http://mlscript.com
 
 
