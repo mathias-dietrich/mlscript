@@ -1,5 +1,5 @@
 # mlscript
-Machine Learning Orchestration
+Machine Learning Orchestrator
 
 mlscript:
 
