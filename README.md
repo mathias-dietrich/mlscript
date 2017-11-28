@@ -22,11 +22,9 @@ entities:
 - Service: Source (SO), Mapper (MA), Neural Processor (NP), Reducer (RE), Sink (SI)
 - Infra: Node (NO), Rack (RA), Availability Zone (AZ), Hosting Center (DC)
 
-Example Toplogy:
-![Alt text](/MLScript.png?raw=true "mlscript example topology")
 
-http://mlscript.org
+![Alt text](/MLscript.png?raw=true "mlscript example topology")
 
-http://mlscript.com
+http://mlscript.org     http://mlscript.com
 
 
