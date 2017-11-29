@@ -3,17 +3,17 @@ Machine Learning Orchestrator
 
 mlscript:
 
-- orchestrats flows of streaming data for time series analysis based on machine learning 
-- feeds ensemble machine learning algorithms for supervised learning
+- orchestrate streaming data flows for time series analysis based on machine learning models
+- feed ensemble machine learning algorithms for supervised learning
 - is an interpreted configuration language
 - produces declarative infastructure as code
-- is implemented in one GO binary
+- implemented in one GO binary
 - can run as a Jupyter kernel
 - builds on and binds to Julia (J), Lua (L), Python (P) and R (R)
-- interfaces to Caffe (CA), CNTK (CN), Mixnet (MI), Keras (KE), TensorFlow (TF) and XGBoost (XG)
+- interfaces with Caffe (CA), CNTK (CN), Mixnet (MI), Keras (KE), TensorFlow (TF) and XGBoost (XG)
 - supports checkpointing
 - implements a Directed Acyclic Graph (DAG)
-- scales from a single laptop to hybrid cloud
+- scales from a single laptop to large hybrid cloud environments
 
 
 entities:
