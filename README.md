@@ -3,7 +3,7 @@ Machine Learning Orchestrator
 
 mlscript:
 
-- orchestrats flows of streaming data for time series analytics based on machine learning 
+- orchestrats flows of streaming data for time series analysis based on machine learning 
 - feeds ensemble machine learning algorithms for supervised learning
 - is an interpreted configuration language
 - produces declarative infastructure as code
